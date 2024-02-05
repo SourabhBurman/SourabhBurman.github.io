@@ -17,30 +17,30 @@ export const projectsData = [
       // "This is a clone of the Medium platform built using the MERN stack. The purpose of this project is to demonstrate proficiency in building a full-stack web application using modern technologies."
       "GEM GARDEN is a site where elegance meets ease in the realm of designer jewellery. Immerse yourself in a visually enchanting experience powered by React and adorned with the chic sophistication of Chakra UI.",
     techstack: ["React JS","Redux", "Chakra UI"],
-    live_url: "https://hackathon-hero-3210.vercel.app/",
-    github_url: "https://github.com/SourabhBurman/hackathon-hero-3210",
+    live_url: "https://gem-garden-jewellery.vercel.app/",
+    github_url: "https://github.com/SourabhBurman/Gem-Garden",
   },
   {
-    title: "Code Symphony",
+    title: "Traveller Symphony",
     image: symphony,
     category: "mern",
     description:
       // "This is a clone of the Medium platform built using the MERN stack. The purpose of this project is to demonstrate proficiency in building a full-stack web application using modern technologies.",
       "This web application is designed to provide users with a seamless experience for booking tickets to various destinations. Our platform aims to make travel booking easy and enjoyable.",
     techstack: ["HTML","CSS","Javascript"],
-    live_url: "https://code-symphony.netlify.app/",
-    github_url: "https://github.com/SourabhBurman/code-symphony-4398",
+    live_url: "https://traveller-symphony.netlify.app/",
+    github_url: "https://github.com/SourabhBurman/Traveller-Symphony",
   },
   {
-    title: "Honest Wing",
+    title: "FigmaForge Designs",
     image: honest,
     category: "html",
     description:
       // "A versatile productivity hub that empowers users to organize, collaborate, and innovate seamlessly, offering intuitive content creation, collaborative editing, task management.",
       "The Honest-wing project is about building portfolio and contact webpages and making them responsive for mobile screens. It underwent enhancements to improve aesthetics and the user experience.",
       techstack: ["HTML", "SCSS"],
-    live_url: "https://honest-wing-579.netlify.app/",
-    github_url: "https://github.com/SourabhBurman/honest-wing-579",
+    live_url: "https://figmaforge.netlify.app/",
+    github_url: "https://github.com/SourabhBurman/FigmaForge-Designs",
   },
   // {
   //   title: "Playo - A Event Organizer",

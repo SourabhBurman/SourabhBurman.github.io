@@ -67,7 +67,7 @@ const Hero = () => {
                     download
                     onClick={() => {
                       window.open(
-                        "https://drive.google.com/file/d/1DIdiEWkLmHga3asnU33JeKbtLY6iWmD-/view?usp=sharing",
+                        "https://drive.google.com/file/d/1LnStYSCNnx_nvvi_cZMpCHpA4bnfhjUJ/view?usp=sharing",
                         "_blank"
                       );
                     }}
