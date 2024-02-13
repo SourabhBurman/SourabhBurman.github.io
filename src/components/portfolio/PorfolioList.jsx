@@ -27,7 +27,7 @@ const PorfolioList = () => {
   );
 
   const mern_projects = projectsData.filter(
-    (project) => project.category === "mern"
+    (project) => project.category === "js"
   );
 
   const html_projects = projectsData.filter(

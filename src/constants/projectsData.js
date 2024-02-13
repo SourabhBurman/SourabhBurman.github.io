@@ -23,7 +23,7 @@ export const projectsData = [
   {
     title: "Traveller Symphony",
     image: symphony,
-    category: "mern",
+    category: "js",
     description:
       // "This is a clone of the Medium platform built using the MERN stack. The purpose of this project is to demonstrate proficiency in building a full-stack web application using modern technologies.",
       "This web application is designed to provide users with a seamless experience for booking tickets to various destinations. Our platform aims to make travel booking easy and enjoyable.",

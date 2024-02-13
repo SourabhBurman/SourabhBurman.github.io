@@ -97,7 +97,7 @@ const Navbar = () => {
               download
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1LnStYSCNnx_nvvi_cZMpCHpA4bnfhjUJ/view?usp=sharing",
+                  "https://drive.google.com/file/d/1ac0tjdGkLp3ozuuDyj0pFXXJ_P46ZGsb/view?usp=sharing",
                   "_blank"
                 );
               }}
