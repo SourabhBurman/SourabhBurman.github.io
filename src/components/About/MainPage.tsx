@@ -4,9 +4,9 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { spectralBridgeRegular, satoshiLight } from "@/fonts/font";
 import Image from "next/image";
-import AboutIntro1 from "../../../public/images/personal/img_2018.jpg";
-import AboutIntro2 from "../../../public/images/personal/img_2019.jpg";
-import AboutOutro1 from "../../../public/images/personal/img_1978.jpg";
+import AboutIntro1 from "../../../public/images/general/home/about_image3.jpg";
+import AboutIntro2 from "../../../public/images/general/home/about_image4.jpg";
+import AboutOutro1 from "../../../public/images/general/home/about_image6.jpg";
 import AboutOutro2 from "../../../public/images/general/home/hero_image.jpg";
 import Paragraph from "../Paragraph";
 import MainButton from "../MainButton";
@@ -72,7 +72,7 @@ function MainPage() {
             <div className="flex-1 object-cover">
               <Image
                 src={AboutIntro1}
-                alt="Sourabh walking through the snow"
+                alt="workspace"
                 className="w-full h-full"
                 placeholder="blur"
               />
@@ -81,7 +81,7 @@ function MainPage() {
               <div className="w-full object-cover">
                 <Image
                   src={AboutIntro2}
-                  alt="Sourabh with a mountain backdrop"
+                  alt="tech setup"
                   className="w-full h-full"
                   placeholder="blur"
                 />
@@ -175,7 +175,7 @@ function MainPage() {
             <div className="flex-1 object-cover mt-16">
               <Image
                 src={AboutOutro1}
-                alt="Sourabh on a snowy mountain"
+                alt=""
                 className="w-full h-full"
                 placeholder="blur"
               />
