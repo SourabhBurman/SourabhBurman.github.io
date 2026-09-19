@@ -1,9 +1,8 @@
 "use client";
 import React, { useRef } from "react";
 import { spectralBridgeRegular } from "@/fonts/font";
-import Image1 from "../../../public/images/general/home/about_image4.jpg";
-import Image2 from "../../../public/images/general/home/about_image3.jpg";
-import Image3 from "../../../public/images/general/home/about_image6.jpg";
+import Image2 from "../../../public/images/personal/img_2084.jpg";
+import Image3 from "../../../public/images/personal/img_2093.jpg";
 import Image from "next/image";
 import Paragraph from "../Paragraph";
 import { useGSAP } from "@gsap/react";
@@ -67,7 +66,7 @@ function About() {
         <div className="md:flex-1 object-cover object-center overflow-hidden">
           <Image
             src={Image3}
-            alt="workspace"
+            alt="Sourabh enjoying the mountain view"
             className="w-full h-full scale-110"
             ref={image1}
             placeholder="blur"
@@ -80,7 +79,7 @@ function About() {
           >
             <Image
               src={Image2}
-              alt="mobile app mockup"
+              alt="Sourabh in the mountains"
               className="w-full h-full"
               placeholder="blur"
             />
