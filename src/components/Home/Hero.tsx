@@ -5,7 +5,7 @@ import Header6 from "../Header6";
 import Image from "next/image";
 import StarSpin from "../StarSpin";
 import Paragraph from "../Paragraph";
-import HeroImage from "../../../public/images/general/home/hero_image.jpg";
+import HeroImage from "../../../public/images/general/home/sourabh-portrait-reference-v3.png";
 import MainButton from "../MainButton";
 import { motion } from "framer-motion";
 import gsap from "gsap";
@@ -120,7 +120,7 @@ function Hero() {
           >
             <Image
               src={HeroImage}
-              alt="hero image"
+              alt="Sourabh Burman"
               className="w-full h-full"
               placeholder="blur"
             />
