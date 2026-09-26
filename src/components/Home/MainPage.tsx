@@ -14,7 +14,7 @@ import FooterTransition from "./FooterTransition";
 import ProcessParagraph from "./ProcessParagraph";
 
 function MainPage() {
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState(7);
   const lenis = useLenis();
 
   useEffect(() => {

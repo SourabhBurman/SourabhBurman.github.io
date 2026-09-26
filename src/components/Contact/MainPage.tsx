@@ -178,9 +178,7 @@ function MainPage() {
                 </div>
                 {error.length > 0 && (
                   <div className="mt-2" role="status" aria-live="polite">
-                    <p
-                      className="text-red-500 text-[15px]"
-                    >
+                    <p className="text-red-500 text-[15px]">
                       {error}
                     </p>
                   </div>

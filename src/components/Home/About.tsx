@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import { spectralBridgeRegular } from "@/fonts/font";
 import Image1 from "../../../public/images/general/home/about_image4.jpg";
 import Image2 from "../../../public/images/general/home/about_image3.jpg";
-import Image3 from "../../../public/images/general/home/about_image6.jpg";
+import Image3 from "../../../public/images/general/home/sourabh-workspace-enhanced.png";
 import Image from "next/image";
 import Paragraph from "../Paragraph";
 import { useGSAP } from "@gsap/react";
@@ -63,11 +63,11 @@ function About() {
           <Header3 phrase={person.aboutLine4} className="pl-[15vw]" />
         </div>
       </div>
-      <div className="mt-10 flex flex-col-reverse md:flex-row md:items-center gap-y-4 md:gap-y-0">
+      <div className="mt-10 mx-auto w-[80%] flex flex-col-reverse md:flex-row md:items-center gap-y-4 md:gap-y-0">
         <div className="md:flex-1 object-cover object-center overflow-hidden">
           <Image
             src={Image3}
-            alt="workspace"
+            alt="Sourabh working at his desk in a warmly lit office"
             className="w-full h-full scale-110"
             ref={image1}
             placeholder="blur"
